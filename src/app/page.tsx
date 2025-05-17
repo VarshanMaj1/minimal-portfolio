@@ -128,7 +128,7 @@ export default function Page() {
             </div>
           </BlurFade>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-            {DATA.projects.map((project, id) => (
+            {/* {DATA.projects.map((project, id) => (
               <BlurFade
                 key={project.title}
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
@@ -142,7 +142,7 @@ export default function Page() {
                   image={project.image}
                   links={project.links} dates={""}                />
               </BlurFade>
-            ))}
+            ))} */}
           </div>
         </div>
       </section>
@@ -164,7 +164,7 @@ export default function Page() {
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {DATA.hackathons.map((project, id) => (
+              {/* {DATA.hackathons.map((project, id) => (
                 <BlurFade
                   key={project.title + project.dates}
                   delay={BLUR_FADE_DELAY * 15 + id * 0.05}
@@ -176,7 +176,7 @@ export default function Page() {
                     dates={project.dates}
                   />
                 </BlurFade>
-              ))}
+              ))} */}
             </ul>
           </BlurFade>
         </div>
