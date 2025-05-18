@@ -127,7 +127,7 @@ export default function Page() {
               </div>
             </div>
           </BlurFade>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto"> 
             {/* {DATA.projects.map((project, id) => (
               <BlurFade
                 key={project.title}
@@ -144,6 +144,9 @@ export default function Page() {
               </BlurFade>
             ))} */}
           </div>
+        <h2 className="flex flex-col items-center text-3xl font-bold tracking-tighter sm:text-5xl">
+                        This section is cooking
+        </h2>
         </div>
       </section>
       <section id="hackathons">
@@ -155,8 +158,11 @@ export default function Page() {
                   Hackathons
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  I 
                 </h2>
+                        <h2 className="flex flex-col items-center text-3xl font-bold tracking-tighter sm:text-5xl">
+                        This section is cooking
+                      </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 </p>
               </div>
