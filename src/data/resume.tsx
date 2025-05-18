@@ -105,7 +105,7 @@ export const DATA = {
   ],
   education: [
     {
-      school: "International Institute of Information Technology",
+      school: "Indian Institute of Information Technology",
       href: "https://www.iiit.ac.in/",
       degree: "Bachelor of Technology in CSE(BTech)",
       logoUrl: "/bmc.jpg",
