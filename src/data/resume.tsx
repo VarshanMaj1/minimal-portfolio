@@ -11,7 +11,7 @@ export const DATA = {
   "I am cool",
   summary:
   "I am cool",
-  avatarUrl: "/me.png",
+  avatarUrl: "/varshan.jpeg",
   skills: [
     // Web/Frontend
     "React",
@@ -23,6 +23,7 @@ export const DATA = {
     // Backend
     "Node.js",
     "FastAPI",
+    "Java",
     "Python",
     "PostgreSQL",
     "Prisma",
@@ -78,7 +79,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "varshanmjai0@gmail.com",
+        url: "varshanmaji0@gmail.com",
         icon: Icons.email,
 
         navbar: false,
